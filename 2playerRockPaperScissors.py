@@ -9,11 +9,11 @@ This is a temporary script file.
 i=0 #score-player1
 j=0 #score-player2
 
-print('player1:',i,'-',j,'player2')
 
 while True:
     
     print('player1:',i,'-',j,'player2')
+    
     player1 = input('rock (1), paper (2) or scissors (3)?')
     player2 = input('rock (1), paper (2) or scissors (3)?')
 
@@ -72,5 +72,5 @@ while True:
         j=j+1
 
     else:
-        print('Huh?')
+        print('Invalid')
   
